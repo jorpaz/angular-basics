@@ -7,7 +7,10 @@ import { Product } from './product.model'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
+/* Clase para Fundamentos de Angular
 export class AppComponent {
+
   name = 'Jorge';
   age = '18';
   img = 'https://www.w3schools.com/howto/img_avatar.png';
@@ -80,4 +83,8 @@ export class AppComponent {
   deleteName(index: number){
     this.names.splice(index, 1);
   }
+}*/
+
+export class AppComponent{
+  imgParent ='';
 }
