@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-import { Product } from './product.model'
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -87,4 +85,8 @@ export class AppComponent {
 
 export class AppComponent{
   imgParent ='';
+
+  onLoaded(img: string) {
+    console.log('Log padre', img);
+  }
 }
