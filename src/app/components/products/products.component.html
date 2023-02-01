@@ -4,6 +4,10 @@
 <p>
   Total: ${{ total }}
 </p>
+<hr />
+<p>
+  Today: {{ today | date: 'short' }}
+</p>
 
 <div class="products--grid">
   <app-product
